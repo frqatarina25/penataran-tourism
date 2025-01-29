@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+.title-logo {
+    display: inline-block;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    color: #e42f1b;
+}
+  
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1.4rem 1 rem;
+    position: relative;
+    font-weight: 500;
+}
+  
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color: #e42f1b;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap:35px;
+    box-sizing: border-box;
+}
+  
